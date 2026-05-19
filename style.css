@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: #1f2937;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.container {
+    width: 90%;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+}
+
+button, .btn {
+    background: #2563eb;
+    color: white;
+    padding: 10px 14px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete {
+    background: #dc2626;
+}
+
+.edit {
+    background: #16a34a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+table th {
+    background: #f1f5f9;
+}
+
+.success {
+    background: #dcfce7;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: #166534;
+}
+
+.error {
+    background: #fee2e2;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: #991b1b;
+}
